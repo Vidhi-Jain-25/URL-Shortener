@@ -15,7 +15,7 @@ app.use(
     })
 )
 
-const mongoURI = 'mongodb+srv://root:1234567890@cluster0.ixdnz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+const mongoURI = ''
 
 mongoose
     .connect(mongoURI, {useNewUrlParser: true})
